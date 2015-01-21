@@ -6,9 +6,12 @@
   {applications, [
                   kernel,
                   stdlib,
-                  public_key,
+                  lager,
+                  pooler,
+                  sasl,
                   ssl,
-                  exmpp
+                  exmpp,
+                  cowboy
                  ]},
   {mod, { urusai_app, []}},
   {env, []}
